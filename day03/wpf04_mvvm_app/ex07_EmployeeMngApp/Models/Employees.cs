@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ex07_EmployeeMngApp.Models
 {
-    public class Employee
+    public class Employees
     {
         public int Id { get; set; }
         public string EmpName { get; set; }
