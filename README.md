@@ -151,6 +151,9 @@ IoT 개발자 WPF 학습리포지토리
     - MahApps.Metro UI, IconPacks
     - Newtonsoft.Json
     - 개인프로젝트 참조소스
+ 
+https://github.com/YooChangWoo/basic-wpf-2024/assets/158007388/35e8b956-ccf9-4940-96d4-49ca1ef10c06
+
 
 ## 8일차
 - WPF 개인프로젝트 포트폴리오 작업
