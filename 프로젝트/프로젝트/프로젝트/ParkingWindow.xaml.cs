@@ -1,16 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
+﻿using System.Windows;
 
 namespace 프로젝트
 {
@@ -19,14 +7,16 @@ namespace 프로젝트
     /// </summary>
     public partial class ParkingWindow : Window
     {
-        public ParkingWindow()
+        public ParkingWindow(string location)
         {
             InitializeComponent();
+            ShowLocationOnMap(location);
         }
 
-        public ParkingWindow(double coordy, double coordx) : this()
+        private void ShowLocationOnMap(string location)
         {
-            BrsLoc.Address = $"https://google.com/maps/place/{coordy},{coordx}";
+            string mapsUrl = $"https://www.google.com/maps?q={Uri.EscapeDataString(location)}";
+            BrsLoc.Address = mapsUrl;
         }
     }
 }

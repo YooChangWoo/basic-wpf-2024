@@ -6,7 +6,7 @@
         xmlns:cefSharp="clr-namespace:CefSharp.Wpf;assembly=CefSharp.Wpf"
         xmlns:local="clr-namespace:프로젝트"
         mc:Ignorable="d"
-        Title="WeatherWindow" Height="400" Width="800">
+        Title="위치" Height="400" Width="800">
     <Grid Margin="20" Background="Gainsboro">
         <cefSharp:ChromiumWebBrowser x:Name="BrsLoc" Address="https://map.google.com" />
     </Grid>
