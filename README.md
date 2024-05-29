@@ -161,4 +161,19 @@ https://github.com/YooChangWoo/basic-wpf-2024/assets/158007388/35e8b956-ccf9-494
     - 7일차 소스 참조
     - 현재 리포지토리에 사진과 함께 올릴 것
 
+## 개인프로젝트
+
+OpenAPI 데이터 조회: BtnReqRealtime_Click 메서드에서는 공공데이터 포털의 VillageBusService API를 사용하여 실시간 버스 정보를 조회합니다.
+                    이를 위해 HTTP 요청을 보내고 응답을 받아서 JSON 형식으로 파싱하여 데이터를 처리합니다.
+
+데이터베이스 저장: BtnSaveData_Click 메서드에서는 조회한 실시간 버스 정보를 데이터베이스에 저장합니다. 
+                 이를 위해 ADO.NET을 사용하여 SQL Server 데이터베이스에 연결하고 SQL 쿼리를 실행합니다.
+
+즐겨찾기 기능: BtnAddFavorite_Click, BtnViewFavorite_Click, BtnDelFavorite_Click 메서드에서는 사용자가 선택한 버스 정보를
+              즐겨찾기에 추가, 조회, 삭제할 수 있는 기능을 구현합니다.데이터베이스에서 즐겨찾기 정보를 관리하고 그에 따라 UI를 업데이트합니다.
+
+데이터바인딩: XAML 파일에서 정의한 데이터바인딩을 통해 데이터 그리드(GrdResults)에 조회된 결과를 표시하고,
+             즐겨찾기 기능을 사용할 때마다 이를 반영하여 UI를 업데이트합니다.
+
+             
 https://github.com/YooChangWoo/basic-wpf-2024/assets/158007388/3765e89f-0266-40f7-b2a2-c3ea1a1d41ab
