@@ -157,7 +157,8 @@ https://github.com/YooChangWoo/basic-wpf-2024/assets/158007388/35e8b956-ccf9-494
 
 ## 8일차
 - WPF 개인프로젝트 포트폴리오 작업
-
     - 데이터포털 API 사용할 것
     - 7일차 소스 참조
     - 현재 리포지토리에 사진과 함께 올릴 것
+
+https://github.com/YooChangWoo/basic-wpf-2024/assets/158007388/3765e89f-0266-40f7-b2a2-c3ea1a1d41ab
